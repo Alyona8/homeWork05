@@ -13,24 +13,24 @@ public class Main {
 
         //Задача 2
         for (int i = 0; i < array.length - 1; i++) {
-        System.out.print(array[i] + ", ");
+            System.out.print(array[i] + ", ");
         }
         System.out.println(array[array.length - 1]);
 
         for (int i = 0; i < arrayFrac.length - 1; i++) {
-        System.out.print(arrayFrac[i] + ", ");
+            System.out.print(arrayFrac[i] + ", ");
         }
         System.out.println(arrayFrac[arrayFrac.length - 1]);
 
         for (int i = 0; i < arbitrary.length - 1; i++) {
-        System.out.print(arbitrary[i] + ", ");
+            System.out.print(arbitrary[i] + ", ");
         }
         System.out.println(arbitrary[arbitrary.length - 1]);
 
 
         //Задача 3
         for (int i = array.length - 1; i > 0; i--) {
-        System.out.print(array[i] + ", ");
+            System.out.print(array[i] + ", ");
         }
         System.out.println(array[0]);
 
@@ -46,11 +46,11 @@ public class Main {
 
 
         //Задача 4
-        for(int i = 0; i < array.length; i++) {
+        for (int i = 0; i < array.length; i++) {
             if (array[i] % 2 != 0) {
                 array[i] = array[i] + 1;
             }
         }
-            System.out.println(Arrays.toString(array));
-        }
+        System.out.println(Arrays.toString(array));
     }
+}
